@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-     return array.each{|name| "#{name.capitalize}!"}
+     return array.each{|name| name.capitalize + "!"}
      
 end
 
