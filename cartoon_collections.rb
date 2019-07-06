@@ -11,8 +11,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-    long_calls = array.select{|call| call.length > 4}
-    long_calls
+    return array.select{|call| call.length > 4}
 end
 
 def find_the_cheese# code an argument here
