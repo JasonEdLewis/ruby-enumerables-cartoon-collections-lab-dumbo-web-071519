@@ -12,7 +12,8 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-    long_calls = array.select{|call| call.length > 4}
+    long_calls = []
+    array.select{|call| long_calls << call.length > 4}
     long_calls
 end
 
